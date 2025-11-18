@@ -1,0 +1,203 @@
+module campus-network {
+  namespace "http://campus-ibn/ns/network";
+  prefix campus;
+
+  organization "Campus IBN Project";
+  contact "admin@campus-ibn.edu";
+  description "Enhanced Campus LAN YANG model";
+
+  revision 2024-01-01 {
+    description "Initial version with enhanced features";
+  }
+
+  typedef interface-speed {
+    type enumeration {
+      enum 100M;
+      enum 1G;
+      enum 10G;
+      enum 25G;
+      enum 40G;
+      enum 100G;
+    }
+    description "Network interface speeds";
+  }
+
+  typedef failover-priority {
+    type uint8 {
+      range "1..100";
+    }
+  }
+
+  container network {
+    description "Campus network configuration";
+
+    list interfaces {
+      key "name";
+      description "Network interfaces configuration";
+
+      leaf name {
+        type string;
+        description "Interface name (e.g., eth0, gigabitethernet0/1)";
+      }
+
+      leaf enabled {
+        type boolean;
+        default true;
+        description "Administrative state of the interface";
+      }
+
+      leaf speed {
+        type interface-speed;
+        mandatory true;
+        description "Interface speed configuration";
+      }
+
+      leaf mtu {
+        type uint16 {
+          range "68..9216";
+        }
+        default 1500;
+        description "Maximum Transmission Unit";
+      }
+
+      leaf ip-address {
+        type string;
+        description "IP address with subnet mask";
+      }
+
+      leaf vlan {
+        type uint16 {
+          range "1..4094";
+        }
+        description "VLAN ID";
+      }
+
+      leaf failover-priority {
+        type failover-priority;
+        description "Priority for failover (lower is higher priority)";
+      }
+    }
+
+    container network-ranges {
+      description "IP address range management";
+
+      list ip-range {
+        key "name";
+        description "IP address range";
+
+        leaf name {
+          type string;
+          description "Range identifier";
+        }
+
+        leaf subnet {
+          type string;
+          mandatory true;
+          description "Subnet in CIDR notation";
+        }
+
+        leaf gateway {
+          type string;
+          description "Default gateway";
+        }
+
+        leaf dns-servers {
+          type string;
+          description "DNS servers (comma separated)";
+        }
+
+        leaf vlan-id {
+          type uint16;
+          description "Associated VLAN";
+        }
+      }
+    }
+
+    container failover-system {
+      description "Failover configuration";
+
+      leaf enabled {
+        type boolean;
+        default true;
+        description "Enable failover system";
+      }
+
+      leaf detection-interval {
+        type uint16;
+        default 5;
+        description "Failure detection interval in seconds";
+      }
+
+      leaf recovery-threshold {
+        type uint8;
+        default 3;
+        description "Success checks required for recovery";
+      }
+
+      list failover-groups {
+        key "name";
+        description "Failover groups";
+
+        leaf name {
+          type string;
+          description "Failover group name";
+        }
+
+        leaf-list primary-interfaces {
+          type leafref {
+            path "/network/interfaces/name";
+          }
+          description "Primary interfaces for this group";
+        }
+
+        leaf-list backup-interfaces {
+          type leafref {
+            path "/network/interfaces/name";
+          }
+          description "Backup interfaces for this group";
+        }
+      }
+    }
+
+    container monitoring {
+      description "Monitoring configuration";
+
+      leaf prometheus-enabled {
+        type boolean;
+        default true;
+      }
+
+      leaf metrics-interval {
+        type uint16;
+        default 30;
+        description "Metrics collection interval in seconds";
+      }
+
+      list monitored-metrics {
+        key "name";
+        description "Metrics to monitor";
+
+        leaf name {
+          type string;
+          description "Metric name";
+        }
+
+        leaf threshold {
+          type decimal64 {
+            fraction-digits 2;
+          }
+          description "Alert threshold";
+        }
+
+        leaf severity {
+          type enumeration {
+            enum low;
+            enum medium;
+            enum high;
+            enum critical;
+          }
+        }
+      }
+    }
+  }
+}
