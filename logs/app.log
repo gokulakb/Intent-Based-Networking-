@@ -1,0 +1,671 @@
+2025-11-18 17:41:47,582 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:41:47,916 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.112:5000
+2025-11-18 17:41:47,917 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-18 17:41:47,918 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:41:49,303 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:41:49,343 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:41:49,371 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:42:26,226 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:42:26] "GET / HTTP/1.1" 200 -
+2025-11-18 17:42:26,739 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:42:26] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 17:42:26,995 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:42:26] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-18 17:42:30,270 - web_ui.app - INFO - Applying intent: {'network_name': 'Campus-LAN', 'network_range': '192.168.100.0', 'subnet_mask': '24', 'interface_speed': '1G', 'failover_enabled': True, 'monitoring_enabled': True}
+2025-11-18 17:42:32,273 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:42:32] "POST /api/intent HTTP/1.1" 200 -
+2025-11-18 17:42:36,064 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:42:36] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 17:43:06,579 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\IBN-Project\\campus-ibn-nms\\main.py', reloading
+2025-11-18 17:43:06,779 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:43:08,733 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:43:08,829 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:43:08,880 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:46:14,947 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:46:15,053 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.112:5000
+2025-11-18 17:46:15,058 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-18 17:46:15,059 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:46:15,948 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:46:16,597 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:46:16,627 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:46:16,649 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:46:17,597 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:46:17,952 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:46:19,598 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:46:27,294 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:27] "GET / HTTP/1.1" 200 -
+2025-11-18 17:46:27,808 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:27] "GET /socket.io/?EIO=4&transport=polling&t=PgMvHYM HTTP/1.1" 200 -
+2025-11-18 17:46:28,481 - web_ui.app - INFO - Client connected
+2025-11-18 17:46:28,487 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:28] "POST /socket.io/?EIO=4&transport=polling&t=PgMvHe2&sid=O22XB05kZ1pfyEMmAAAA HTTP/1.1" 200 -
+2025-11-18 17:46:28,503 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:28] "GET /socket.io/?EIO=4&transport=polling&t=PgMvHe9&sid=O22XB05kZ1pfyEMmAAAA HTTP/1.1" 200 -
+2025-11-18 17:46:28,507 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:28] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 17:46:28,511 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:28] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:46:28,518 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:28] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:46:38,512 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:46:44,046 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:46:44] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:50:51,934 - __main__ - ERROR - 💥 Fatal error: unterminated string literal (detected at line 2) (app.py, line 2)
+2025-11-18 17:52:03,009 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:52:03,014 - __main__ - INFO - Starting Flask-SocketIO server
+2025-11-18 17:52:03,145 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.112:5000
+2025-11-18 17:52:03,159 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-18 17:52:03,173 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:52:04,009 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:52:04,752 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:52:04,756 - __main__ - INFO - Starting Flask-SocketIO server
+2025-11-18 17:52:04,774 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:52:04,792 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:52:05,753 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:52:06,011 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:52:06,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "GET /socket.io/?EIO=4&transport=polling&t=PgMwa2b HTTP/1.1" 200 -
+2025-11-18 17:52:06,298 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "GET /socket.io/?EIO=4&transport=polling&t=PgMwa2b HTTP/1.1" 200 -
+2025-11-18 17:52:06,377 - web_ui.app - INFO - Client connected
+2025-11-18 17:52:06,378 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "POST /socket.io/?EIO=4&transport=polling&t=PgMwa87&sid=pZERTeTgfkqqI-3zAAAA HTTP/1.1" 200 -
+2025-11-18 17:52:06,405 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "GET /socket.io/?EIO=4&transport=polling&t=PgMwa8S&sid=pZERTeTgfkqqI-3zAAAA HTTP/1.1" 200 -
+2025-11-18 17:52:06,430 - web_ui.app - INFO - Client connected
+2025-11-18 17:52:06,434 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "POST /socket.io/?EIO=4&transport=polling&t=PgMwaBf&sid=PbjFJosQEaY1mJd9AAAB HTTP/1.1" 200 -
+2025-11-18 17:52:06,625 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "GET /socket.io/?EIO=4&transport=polling&t=PgMwaBr&sid=PbjFJosQEaY1mJd9AAAB HTTP/1.1" 200 -
+2025-11-18 17:52:06,646 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:06] "GET /socket.io/?EIO=4&transport=polling&t=PgMwaDG&sid=pZERTeTgfkqqI-3zAAAA HTTP/1.1" 200 -
+2025-11-18 17:52:07,754 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:52:51,073 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:52:51,076 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:52:51,337 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:52:51,391 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:52:55,456 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\IBN-Project\\campus-ibn-nms\\src\\web_ui\\app.py', reloading
+2025-11-18 17:52:55,623 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:52:57,862 - __main__ - INFO - Application components imported successfully
+2025-11-18 17:52:57,865 - __main__ - INFO - Starting Flask-SocketIO server
+2025-11-18 17:52:57,879 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:52:57,898 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:52:57,999 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:57] "GET /socket.io/?EIO=4&transport=polling&t=PgMwmVO HTTP/1.1" 200 -
+2025-11-18 17:52:58,000 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:58] "GET /socket.io/?EIO=4&transport=polling&t=PgMwmVP HTTP/1.1" 200 -
+2025-11-18 17:52:58,033 - web_ui.app - INFO - Client connected
+2025-11-18 17:52:58,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:58] "POST /socket.io/?EIO=4&transport=polling&t=PgMwmpg&sid=D9X63Og0rOTfzVyDAAAA HTTP/1.1" 200 -
+2025-11-18 17:52:58,377 - web_ui.app - INFO - Client connected
+2025-11-18 17:52:58,380 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:58] "POST /socket.io/?EIO=4&transport=polling&t=PgMwmpi&sid=PpNCGkwtQWF9eLB7AAAB HTTP/1.1" 200 -
+2025-11-18 17:52:58,384 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:58] "GET /socket.io/?EIO=4&transport=polling&t=PgMwmq7&sid=D9X63Og0rOTfzVyDAAAA HTTP/1.1" 200 -
+2025-11-18 17:52:58,391 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:52:58] "GET /socket.io/?EIO=4&transport=polling&t=PgMwmqF&sid=PpNCGkwtQWF9eLB7AAAB HTTP/1.1" 200 -
+2025-11-18 17:52:58,863 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:53:00,867 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:53:18,841 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DELL\\Documents\\IBN-Project\\campus-ibn-nms\\main.py', reloading
+2025-11-18 17:53:18,965 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:53:20,579 - __main__ - INFO - Enhanced application components imported successfully
+2025-11-18 17:53:20,581 - __main__ - INFO - Starting Enhanced Flask-SocketIO server
+2025-11-18 17:53:20,594 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:53:20,613 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:53:20,680 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:53:20] "GET /socket.io/?EIO=4&transport=polling&t=PgMws71 HTTP/1.1" 200 -
+2025-11-18 17:53:20,690 - web_ui.app - INFO - Client connected
+2025-11-18 17:53:20,692 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:53:20] "POST /socket.io/?EIO=4&transport=polling&t=PgMwsLj&sid=S5jyvKGiFJ1cfVrhAAAA HTTP/1.1" 200 -
+2025-11-18 17:53:21,014 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:53:21] "GET /socket.io/?EIO=4&transport=polling&t=PgMwsLm&sid=S5jyvKGiFJ1cfVrhAAAA HTTP/1.1" 200 -
+2025-11-18 17:53:21,579 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:53:23,581 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:54:22,453 - __main__ - INFO - Enhanced application components imported successfully
+2025-11-18 17:54:22,457 - __main__ - INFO - Starting Enhanced Flask-SocketIO server
+2025-11-18 17:54:22,538 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.68.112:5000
+2025-11-18 17:54:22,539 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-11-18 17:54:22,540 - werkzeug - INFO -  * Restarting with stat
+2025-11-18 17:54:23,452 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:54:24,142 - __main__ - INFO - Enhanced application components imported successfully
+2025-11-18 17:54:24,146 - __main__ - INFO - Starting Enhanced Flask-SocketIO server
+2025-11-18 17:54:24,163 - werkzeug - WARNING -  * Debugger is active!
+2025-11-18 17:54:24,190 - werkzeug - INFO -  * Debugger PIN: 398-328-140
+2025-11-18 17:54:25,142 - web_ui.app - INFO - Connecting to network device...
+2025-11-18 17:54:25,454 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:54:27,145 - web_ui.app - INFO - Successfully connected to network device
+2025-11-18 17:54:35,886 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:35] "GET / HTTP/1.1" 200 -
+2025-11-18 17:54:36,602 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:36] "GET /socket.io/?EIO=4&transport=polling&t=PgMx8td HTTP/1.1" 200 -
+2025-11-18 17:54:36,626 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:36] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 17:54:36,931 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:54:37,061 - web_ui.app - INFO - Client connected
+2025-11-18 17:54:37,063 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:37] "POST /socket.io/?EIO=4&transport=polling&t=PgMx8w2&sid=VHwq5FSxCXnJPuX0AAAA HTTP/1.1" 200 -
+2025-11-18 17:54:37,118 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:37] "GET /socket.io/?EIO=4&transport=polling&t=PgMx8wb&sid=VHwq5FSxCXnJPuX0AAAA HTTP/1.1" 200 -
+2025-11-18 17:54:40,569 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:54:40,575 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:40] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:54:41,399 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:41] "GET /socket.io/?EIO=4&transport=polling&t=PgMxA2i HTTP/1.1" 200 -
+2025-11-18 17:54:41,729 - web_ui.app - INFO - Client connected
+2025-11-18 17:54:41,741 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:41] "GET /socket.io/?EIO=4&transport=polling&t=PgMxA39&sid=X3dNQMJWPtoH3LihAAAC HTTP/1.1" 200 -
+2025-11-18 17:54:41,742 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:41] "POST /socket.io/?EIO=4&transport=polling&t=PgMxA30&sid=X3dNQMJWPtoH3LihAAAC HTTP/1.1" 200 -
+2025-11-18 17:54:41,909 - web_ui.app - INFO - Client disconnected
+2025-11-18 17:54:41,917 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:41] "GET /socket.io/?EIO=4&transport=websocket&sid=X3dNQMJWPtoH3LihAAAC HTTP/1.1" 200 -
+2025-11-18 17:54:41,998 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:41] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:54:46,959 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:46] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:54:46,963 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:46] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:54:51,951 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:54:56,949 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:54:56,953 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:54:56] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:55:01,958 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:01] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:06,768 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:06] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:07,084 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:07] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:55:12,042 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:16,739 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:16] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:17,055 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:55:22,042 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:26,733 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:26] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:27,038 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:55:32,044 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:36,725 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:37,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:55:42,038 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:42] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:46,728 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:46] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:47,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:55:52,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:56,732 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:55:57,048 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:55:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:56:02,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:56:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:56:06,738 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:56:06] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:56:07,046 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:56:07] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:56:51,044 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:56:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:56:51,046 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:56:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:57:51,049 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:57:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:57:51,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:57:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:58:51,035 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:58:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:58:51,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:58:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 17:59:51,051 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:59:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 17:59:51,053 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 17:59:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:00:56,751 - web_ui.app - INFO - Client disconnected
+2025-11-18 18:00:56,759 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:00:56] "GET /socket.io/?EIO=4&transport=websocket&sid=VHwq5FSxCXnJPuX0AAAA HTTP/1.1" 200 -
+2025-11-18 18:01:18,795 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:18] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:18,799 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:18] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:01:19,059 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:19] "GET /socket.io/?EIO=4&transport=polling&t=PgMyh89 HTTP/1.1" 200 -
+2025-11-18 18:01:19,390 - web_ui.app - INFO - Client connected
+2025-11-18 18:01:19,399 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:19] "POST /socket.io/?EIO=4&transport=polling&t=PgMyh8W&sid=OfbG-l0-4Sls3WE4AAAE HTTP/1.1" 200 -
+2025-11-18 18:01:19,400 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:19] "GET /socket.io/?EIO=4&transport=polling&t=PgMyh8a&sid=OfbG-l0-4Sls3WE4AAAE HTTP/1.1" 200 -
+2025-11-18 18:01:21,638 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:21] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:27,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:27] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:27,054 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:01:32,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:36,744 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:37,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:01:42,037 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:42] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:46,734 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:46] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:47,038 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:01:52,061 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:56,735 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:01:57,056 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:01:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:02:02,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:06,746 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:06] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:07,055 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:07] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:02:12,094 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:16,733 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:16] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:17,046 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:02:22,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:26,742 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:26] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:27,071 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:02:40,271 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:40] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:02:40,277 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:41,776 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:41] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:48,419 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:48] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:48,424 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:48] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:02:52,072 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:57,047 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:57] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:02:57,054 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:02:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:02,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:06,957 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:06] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:06,961 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:06] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:11,935 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:11] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:13,430 - web_ui.app - INFO - Received enhanced intent: {'network_name': 'Campus-LAN', 'network_range': '192.168.100.0', 'subnet_mask': '24', 'interface_speed': '1G', 'failover_enabled': True, 'monitoring_enabled': True, 'failover_config': {'primary': 'gigabitethernet0/1', 'backup': 'tengigabitethernet0/1', 'threshold': '5'}, 'network_services': {'dns_servers': ['8.8.8.8', '8.8.4.4'], 'ntp_servers': ['pool.ntp.org'], 'dhcp_enabled': True, 'dhcp_range': '192.168.100.100-192.168.100.200'}, 'qos_config': {'voice': 'gigabitethernet0/1', 'video': 'gigabitethernet0/2', 'data': 'tengigabitethernet0/1'}, 'security_rules': [{'action': 'allow', 'source': '192.168.100.0/24', 'destination': 'any'}]}
+2025-11-18 18:03:13,439 - web_ui.app - INFO - Applying enhanced network intent: {'network_name': 'Campus-LAN', 'network_range': '192.168.100.0', 'subnet_mask': '24', 'interface_speed': '1G', 'failover_enabled': True, 'monitoring_enabled': True, 'failover_config': {'primary': 'gigabitethernet0/1', 'backup': 'tengigabitethernet0/1', 'threshold': '5'}, 'network_services': {'dns_servers': ['8.8.8.8', '8.8.4.4'], 'ntp_servers': ['pool.ntp.org'], 'dhcp_enabled': True, 'dhcp_range': '192.168.100.100-192.168.100.200'}, 'qos_config': {'voice': 'gigabitethernet0/1', 'video': 'gigabitethernet0/2', 'data': 'tengigabitethernet0/1'}, 'security_rules': [{'action': 'allow', 'source': '192.168.100.0/24', 'destination': 'any'}]}
+2025-11-18 18:03:16,444 - web_ui.app - INFO - Enhanced network intent applied successfully
+2025-11-18 18:03:16,448 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:16] "POST /api/intent HTTP/1.1" 200 -
+2025-11-18 18:03:16,853 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:16] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 18:03:16,856 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:16] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:17,044 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:17,108 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:19,283 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:22,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:24,278 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:27,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:27] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:27,047 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:29,276 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:32,053 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:34,274 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:37,040 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:37,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:37] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:39,279 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:42,034 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:42] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:44,277 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:47,035 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:47] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:47,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:49,283 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:52,053 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:54,304 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:57,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:57] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:03:57,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:03:59,303 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:03:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:02,034 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:04,308 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:06,949 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:06] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:06,952 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:06] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:04:09,304 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:12,103 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:14,307 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:17,177 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:17,295 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:04:19,302 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:22,064 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:24,306 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:27,038 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:27] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:27,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:04:29,310 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:32,042 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:34,306 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:37,073 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:37] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:37,075 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:04:39,313 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:42,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:42] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:44,311 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:47,042 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:47] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:47,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:04:49,409 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:52,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:54,350 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:57,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:57] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:04:57,050 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:04:59,368 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:04:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:02,040 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:04,351 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:07,054 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:07] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:07,058 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:07] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:05:09,352 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:14,659 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:19,355 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:24,660 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:29,384 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:34,668 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:39,359 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:44,661 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:49,361 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:51,061 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:51,063 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:05:54,366 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:05:59,679 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:05:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:04,367 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:09,678 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:14,372 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:19,679 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:24,375 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:29,686 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:34,375 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:39,678 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:44,377 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:49,696 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:50,731 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:51,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:06:54,693 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:06:59,385 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:06:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:04,698 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:09,384 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:14,686 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:19,389 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:24,701 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:29,535 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:34,710 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:39,402 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:44,710 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:49,408 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:51,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:51,044 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:07:54,405 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:07:59,716 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:07:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:04,403 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:10,230 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:14,568 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:19,778 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:24,447 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:29,745 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:34,436 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:39,750 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:44,741 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:49,462 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:51,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:51,050 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:08:54,622 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:08:59,753 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:08:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:09:04,751 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:09:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:09:34,462 - web_ui.app - INFO - Client disconnected
+2025-11-18 18:09:34,486 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:09:34] "GET /socket.io/?EIO=4&transport=websocket&sid=OfbG-l0-4Sls3WE4AAAE HTTP/1.1" 200 -
+2025-11-18 18:11:59,997 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:11:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:00,038 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:00] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:00,179 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:00,824 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:00] "GET /socket.io/?EIO=4&transport=polling&t=PgM_7pP HTTP/1.1" 200 -
+2025-11-18 18:12:01,291 - web_ui.app - INFO - Client connected
+2025-11-18 18:12:01,309 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:01] "POST /socket.io/?EIO=4&transport=polling&t=PgM_7r4&sid=TAFigbEnuXcsn-lsAAAG HTTP/1.1" 200 -
+2025-11-18 18:12:01,310 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:01] "GET /socket.io/?EIO=4&transport=polling&t=PgM_7r9&sid=TAFigbEnuXcsn-lsAAAG HTTP/1.1" 200 -
+2025-11-18 18:12:01,481 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:01] "GET /socket.io/?EIO=4&transport=polling&t=PgM_7xp&sid=TAFigbEnuXcsn-lsAAAG HTTP/1.1" 200 -
+2025-11-18 18:12:01,727 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:01] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:04,869 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:07,058 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:07] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:07,060 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:07] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:09,565 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:12,120 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:15,980 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:15] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:16,741 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:16] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:17,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:20,019 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:22,050 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:24,707 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:27,051 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:27,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:27] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:29,706 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:32,036 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:34,705 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:37,026 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:37] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:37,029 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:39,705 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:42,037 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:42] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:44,706 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:47,042 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:47] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:47,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:49,707 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:52,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:54,721 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:57,037 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:57] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:12:57,038 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:12:59,714 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:12:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:02,035 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:04,712 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:10,022 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:15,030 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:15] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:20,021 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:25,033 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:25] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:30,033 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:34,717 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:40,036 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:44,717 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:50,040 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:51,417 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:13:51,425 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:13:54,721 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:13:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:00,035 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:04,724 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:10,039 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:14,755 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:20,031 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:24,725 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:30,034 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:34,762 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:40,151 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:45,048 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:45] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:50,046 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:50,734 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:14:51,047 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:14:55,051 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:14:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:00,047 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:04,739 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:10,056 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:14,740 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:20,053 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:24,747 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:30,060 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:34,753 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:40,063 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:44,748 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:50,055 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:50,724 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:15:51,037 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:15:55,056 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:15:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:00,060 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:04,757 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:10,089 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:14,753 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:20,063 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:24,760 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:30,071 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:34,758 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:40,067 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:44,765 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:50,075 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:50,735 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:16:51,050 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:16:55,095 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:16:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:17:24,785 - web_ui.app - INFO - Client disconnected
+2025-11-18 18:17:24,800 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:17:24] "GET /socket.io/?EIO=4&transport=websocket&sid=TAFigbEnuXcsn-lsAAAG HTTP/1.1" 200 -
+2025-11-18 18:19:15,119 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:15] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:15,124 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:15] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:19:15,370 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:15] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:16,520 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:16] "GET /socket.io/?EIO=4&transport=polling&t=PgN0o6O HTTP/1.1" 200 -
+2025-11-18 18:19:16,777 - web_ui.app - INFO - Client connected
+2025-11-18 18:19:16,778 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:16] "POST /socket.io/?EIO=4&transport=polling&t=PgN0oBm&sid=NHOxbdavE4erInPIAAAI HTTP/1.1" 200 -
+2025-11-18 18:19:16,846 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:16] "GET /socket.io/?EIO=4&transport=polling&t=PgN0oBt&sid=NHOxbdavE4erInPIAAAI HTTP/1.1" 200 -
+2025-11-18 18:19:16,849 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:16] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:16,941 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:16] "GET /socket.io/?EIO=4&transport=polling&t=PgN0oHD&sid=NHOxbdavE4erInPIAAAI HTTP/1.1" 200 -
+2025-11-18 18:19:16,952 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:16] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:19:19,818 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:21,950 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:21] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:24,816 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:26,954 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:26] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:26,959 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:26] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:19:29,821 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:31,941 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:31] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:34,818 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:36,952 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:36,954 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:36] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:19:39,818 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:41,950 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:41] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:44,822 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:46,949 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:46] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:46,951 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:46] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:19:49,819 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:51,946 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:51] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:54,823 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:56,960 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:19:56,962 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:56] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:19:59,823 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:19:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:01,947 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:01] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:04,823 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:07,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:07] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:07,057 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:07] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:20:09,829 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:12,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:12] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:14,825 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:17,053 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:17,054 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:17] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:20:19,825 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:22,052 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:22] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:24,827 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:27,133 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:27] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:27,135 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:27] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:20:29,827 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:32,054 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:32] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:34,833 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:37,047 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:37] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:37,048 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:37] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:20:39,834 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:42,061 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:42] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:44,833 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:47,054 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:47] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:47,055 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:47] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:20:49,836 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:52,051 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:52] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:54,831 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:57,060 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:57] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:20:57,064 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:57] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:20:59,833 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:20:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:02,035 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:02] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:04,839 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:10,142 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:14,836 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:20,152 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:24,839 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:30,143 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:34,843 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:40,149 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:44,845 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:50,154 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:50,730 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:21:51,036 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:21:55,150 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:21:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:00,149 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:04,847 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:10,158 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:14,848 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:20,153 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:24,849 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:30,155 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:34,851 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:40,153 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:44,878 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:50,169 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:50,737 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:22:51,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:22:55,173 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:22:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:00,174 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:04,859 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:10,166 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:14,864 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:20,172 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:24,864 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:30,171 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:34,863 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:40,168 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:44,864 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:50,187 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:50,723 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:23:51,027 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:23:55,180 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:23:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:00,173 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:04,868 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:10,176 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:14,872 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:20,184 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:24,872 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:30,187 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:34,874 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:40,191 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:44,882 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:50,192 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:50,733 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:24:51,045 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:24:55,199 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:24:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:00,194 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:04,885 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:10,193 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:14,890 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:20,191 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:24,892 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:30,204 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:34,889 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:40,206 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:44,897 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:50,209 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:50,729 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:25:51,043 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:25:55,215 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:25:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:00,208 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:00] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:04,895 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:10,207 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:14,902 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:20,213 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:24,899 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:30,210 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:35,205 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:35] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:40,215 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:45,225 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:45] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:50,220 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:50,736 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:26:51,044 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:51] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:26:55,218 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:26:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:27:34,910 - web_ui.app - INFO - Client disconnected
+2025-11-18 18:27:35,034 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:27:35] "GET /socket.io/?EIO=4&transport=websocket&sid=NHOxbdavE4erInPIAAAI HTTP/1.1" 200 -
+2025-11-18 18:41:33,558 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:33] "GET /socket.io/?EIO=4&transport=polling&t=PgN5ubW HTTP/1.1" 200 -
+2025-11-18 18:41:33,612 - web_ui.app - INFO - Client connected
+2025-11-18 18:41:33,614 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:33] "POST /socket.io/?EIO=4&transport=polling&t=PgN5ud8&sid=YEcFOgQ4_nkOxhgDAAAK HTTP/1.1" 200 -
+2025-11-18 18:41:33,906 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:33] "GET /socket.io/?EIO=4&transport=polling&t=PgN5udD&sid=YEcFOgQ4_nkOxhgDAAAK HTTP/1.1" 200 -
+2025-11-18 18:41:34,259 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:34] "GET /socket.io/?EIO=4&transport=polling&t=PgN5uiz&sid=YEcFOgQ4_nkOxhgDAAAK HTTP/1.1" 200 -
+2025-11-18 18:41:34,861 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:38,797 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:39,837 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:43,816 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:43] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:43,817 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:43] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:41:44,841 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:48,804 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:48] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:49,840 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:53,724 - web_ui.app - INFO - Received enhanced intent: {'network_name': 'Campus-LAN', 'network_range': '192.168.100.0', 'subnet_mask': '24', 'interface_speed': '1G', 'failover_enabled': True, 'monitoring_enabled': True, 'failover_config': {'primary': 'gigabitethernet0/1', 'backup': 'tengigabitethernet0/1', 'threshold': '5'}, 'network_services': {'dns_servers': ['8.8.8.8', '8.8.4.4'], 'ntp_servers': ['pool.ntp.org'], 'dhcp_enabled': True, 'dhcp_range': '192.168.100.100-192.168.100.200'}, 'qos_config': {'voice': 'gigabitethernet0/1', 'video': 'gigabitethernet0/2', 'data': 'tengigabitethernet0/1'}, 'security_rules': [{'action': 'allow', 'source': '192.168.100.0/24', 'destination': 'any'}]}
+2025-11-18 18:41:53,726 - web_ui.app - INFO - Applying enhanced network intent: {'network_name': 'Campus-LAN', 'network_range': '192.168.100.0', 'subnet_mask': '24', 'interface_speed': '1G', 'failover_enabled': True, 'monitoring_enabled': True, 'failover_config': {'primary': 'gigabitethernet0/1', 'backup': 'tengigabitethernet0/1', 'threshold': '5'}, 'network_services': {'dns_servers': ['8.8.8.8', '8.8.4.4'], 'ntp_servers': ['pool.ntp.org'], 'dhcp_enabled': True, 'dhcp_range': '192.168.100.100-192.168.100.200'}, 'qos_config': {'voice': 'gigabitethernet0/1', 'video': 'gigabitethernet0/2', 'data': 'tengigabitethernet0/1'}, 'security_rules': [{'action': 'allow', 'source': '192.168.100.0/24', 'destination': 'any'}]}
+2025-11-18 18:41:53,806 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:53] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:53,809 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:53] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:41:54,840 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:56,728 - web_ui.app - INFO - Enhanced network intent applied successfully
+2025-11-18 18:41:56,733 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:56] "POST /api/intent HTTP/1.1" 200 -
+2025-11-18 18:41:59,592 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:59] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 18:41:59,595 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:41:59,841 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:41:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:01,212 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:01] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:02,740 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:02] "GET /api/interfaces HTTP/1.1" 200 -
+2025-11-18 18:42:03,501 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:03] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:03,812 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:03] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:42:05,148 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:05] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:08,503 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:08] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:10,159 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:13,804 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:13] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:13,806 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:13] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:42:14,851 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:18,799 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:18] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:19,850 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:20,688 - web_ui.app - INFO - Applying advanced configuration: {'failover_config': {'primary': 'gigabitethernet0/1', 'backup': 'tengigabitethernet0/1', 'threshold': '5'}, 'network_services': {'dns_servers': ['8.8.8.8', '8.8.4.4'], 'ntp_servers': ['pool.ntp.org'], 'dhcp_enabled': True, 'dhcp_range': '192.168.100.100-192.168.100.200'}, 'qos_config': {'voice': 'gigabitethernet0/1', 'video': 'gigabitethernet0/2', 'data': 'tengigabitethernet0/1'}, 'security_rules': [{'action': 'allow', 'source': '192.168.100.0/24', 'destination': 'any'}]}
+2025-11-18 18:42:20,690 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:20] "POST /api/advanced-config HTTP/1.1" 200 -
+2025-11-18 18:42:23,812 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:23] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:23,816 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:23] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:42:24,845 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:28,806 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:28] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:29,854 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:33,805 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:33] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:33,807 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:33] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:42:34,853 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:38,804 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:38] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:39,849 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:43,804 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:43] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:43,808 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:43] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:42:44,854 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:48,799 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:48] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:49,857 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:53,799 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:53] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:53,803 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:53] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:42:54,860 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:54] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:58,813 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:58] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:42:59,860 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:42:59] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:03,796 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:03] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:03,797 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:03] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:43:04,857 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:04] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:09,770 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:10,013 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:10] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:14,762 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:14,763 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:14] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:43:15,025 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:15] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:19,765 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:19] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:20,008 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:20] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:24,769 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:24] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:24,771 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:24] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:43:25,036 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:25] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:29,752 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:29] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:30,008 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:30] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:34,777 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:34] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:34,778 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:34] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:43:35,031 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:35] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:39,821 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:39] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:40,069 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:40] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:44,767 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:44] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:44,771 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:44] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:43:45,035 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:45] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:49,777 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:49] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:50,022 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:50] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:55,825 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:55] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:43:56,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:56] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:43:56,364 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:43:56] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:09,041 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:09] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:09,781 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:09] "GET /api/status HTTP/1.1" 200 -
+2025-11-18 18:44:11,348 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:11] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:13,716 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:13] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:14,449 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:14] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:17,271 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:17] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:21,447 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:21] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:26,435 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:26] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:31,133 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:31] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:36,453 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:36] "GET /api/metrics HTTP/1.1" 200 -
+2025-11-18 18:44:38,584 - web_ui.app - INFO - Client disconnected
+2025-11-18 18:44:38,586 - werkzeug - INFO - 127.0.0.1 - - [18/Nov/2025 18:44:38] "GET /socket.io/?EIO=4&transport=websocket&sid=YEcFOgQ4_nkOxhgDAAAK HTTP/1.1" 200 -

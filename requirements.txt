@@ -1,0 +1,7 @@
+Flask==2.3.3
+Flask-SocketIO==5.3.6
+python-socketio==5.10.0
+eventlet==0.33.3
+prometheus-client==0.17.1
+python-dotenv==1.0.0
+PyYAML==6.0.1
